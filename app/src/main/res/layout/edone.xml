@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center" >
+
+    <TextView
+        android:id="@+id/Qend1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Done - "
+        android:layout_marginTop="50dp"
+        android:textColor="#9A1818"
+        android:textSize="36sp"
+        />
+
+    <TextView
+        android:id="@+id/Qend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score"
+        android:layout_marginTop="36dp"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/EFinalScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="2/20"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/EPlayAgain"
+            android:layout_margin="10dp"
+            android:text="Do Again"
+            android:textAllCaps="false"
+            android:backgroundTint="#FF1364"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/EBack"
+            android:layout_margin="10dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:backgroundTint="#1189BF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

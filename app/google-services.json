@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "386507351715",
+    "firebase_url": "https://math-education-323e1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "math-education-323e1",
+    "storage_bucket": "math-education-323e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386507351715:android:5e2165bc9725a2fe05c116",
+        "android_client_info": {
+          "package_name": "com.example.he"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386507351715-afi3hnus5uggmgjdn4ij76qofndqc0bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDOQDq1YoBiJ6ys-WYX3-07KABKJdWLug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386507351715-afi3hnus5uggmgjdn4ij76qofndqc0bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
